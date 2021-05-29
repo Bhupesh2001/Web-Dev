@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h10>hello</h10>
+   <!-- lorem23 is used to insert 23 dummy text -->
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, autem?</p>
+   <p><em>hello</em></p>                <!-- em means imphasise, it makes the text italic .. modern way to make text italic-->
+   <p><strong>world</strong></p>                <!-- strong means bold, it makes the text bold .. modern way to make text bold-->
+   
+   
+   <!-- Linking (via link or local file) -->
+        <a href="https://www.google.com" target="_blank">go to google</a><br>   <!-- open google in new tab when clicked on  "go to google" -->
+        <!-- taget="_black   is used to open in new tab" -->
+
+        <!-- there is a file named try.html in same folder, it gets linked -->
+        <a href="/try.html">Try File</a><br>
+
+
+   <!-- Adding Image  -->
+        <!-- there is a file named image.jpeg in same folder, it gets displayed -->
+        <img src="image.jpg" width="640" height="360" alt="image not found">
+        <img src="image2.jpg" alt="image 2 not found">
+
+
+
+    <!-- LIST -->
+
+        <!-- ul means UnOrdered list , it adds bullets in front of each <li> (List Item) -->
+        <ul type="circle">                      <!--  There 3 types :- square,circle,disc(default,if no type mentioned or wrong mentioned) -->
+            <li>1st Element</li>
+            <li>2nd Element</li>
+                <ul>                                <!-- Nested Listing -->
+                    <li>1st element within list</li>
+                    <li>2nd element within list</li>
+                    <li>3rd element within list</li>
+                </ul>
+        </ul>
+        
+        <!-- ul means UnOrdered list , it adds bullets in front of each <li> (List Item) -->
+        <ol type="1">                      <!--  There  types :- a,A,i,I,1(default,if no type mentioned or wrong mentioned) -->
+            <li>1st Element</li>
+            <li>2nd Element</li>
+            <li>3rd Element</li>
+        </ol>
+
+
+    <!-- Table -->
+        
+        <h3>Table</h3>
+        <table>
+            <thead>                         <!-- Table Head -->
+                <tr>
+                    <td>Name</td>               <!-- Table Data -->
+                    <td>Age</td>
+                    <td>Gen</td>
+                </tr>
+            </thead>
+
+            <tbody>                         <!-- Table Body -->
+                <tr>                        <!-- Table Row-->
+                    <td>Bhupesh</td>
+                    <td>20</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>sumit</td>
+                    <td>60</td>
+                    <td>Male</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>

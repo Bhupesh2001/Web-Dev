@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <!-- This line used to give access to typing block by clicking on text too (rather clicking on box) -->
+        <!-- This line read as: " for 'Name'(visible text) access statement with id 'name'(this is id) " -->
+        <div>
+            <input type="text" name="myName" id="name">
+            <!-- There are many types of input -->
+            <!-- name = "xyz" , here xyz is a variable where input is stored -->
+        </div>
+        <br>
+
+        <label for="role">Role : </label>
+        <div>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+
+        <label for="email">Email : </label>
+        <div>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+
+        <label for="date">Date : </label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+
+        <label for="bonus">Bonus : </label>
+        <div>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br>
+
+        <label for="eligible">Eligible ? : </label>
+        <div>
+            <input type="checkbox" name="myEligibility" id="eligible" checked>
+        </div>
+        <br>
+
+        <label for="gender"></label>
+        <div>
+            Gender :
+            <input type="radio" name="myGender" checked> Male      <!-- CHECKED KEYWORD makes this option defaulty checked -->
+            <input type="radio" name="myGender"> female
+            <input type="radio" name="myGender"> Other
+        </div>
+        <br>
+
+        <div>
+            <label for="Tarea">Write about your self : <br></label>
+            <textarea name="textArea" cols="30" rows="10" id="Tarea"></textarea>
+        </div>
+        <br>
+
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">                  <!-- It creates a drop down list with given options-->
+                <option value="ferrai">Ferrai</option>
+                <option value="lambo" selected>Lambo</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">      <!-- it creates a BUTTON of submit type , with text "sumbit now" on button -->
+            <input type="reset" value="Reset">            <!-- it creates a BUTTON of reset type , with text "Reset" on button -->
+        </div>
+        <br>
+    </form>
+</body>
+
+</html>

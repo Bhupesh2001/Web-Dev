@@ -1,0 +1,19 @@
+p           /* this is known as element selector , p represent paragraph(it can be any tag of html like body,table etc*/  
+{
+    color: rgba(240, 13, 126, 0.904);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: xx-large;
+} 
+
+#secondPara{        /* This is a ID selector */
+    color: red;
+}
+ 
+.thirdPara{        /* This is a CLASS selector */
+    color: rgb(0, 0, 255);
+}
+
+p,#secondPara,.thirdPara{        /* group selector */
+    background-color: rgba(127, 255, 212, 0.253);
+}
